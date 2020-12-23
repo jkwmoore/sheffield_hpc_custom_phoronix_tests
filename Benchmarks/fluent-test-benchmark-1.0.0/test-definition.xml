@@ -17,7 +17,7 @@
     <TestType>System</TestType>
     <License>Free</License>
     <Status>Unverified</Status>
-    <EnvironmentSize>0.1</EnvironmentSize>
+    <EnvironmentSize>116</EnvironmentSize>
     <ProjectURL>https://github.com/jkwmoore/sheffield_hpc_custom_phoronix_tests</ProjectURL>
     <Maintainer>jkwmoore</Maintainer>
   </TestProfile>
