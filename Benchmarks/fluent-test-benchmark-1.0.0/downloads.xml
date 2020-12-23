@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.2.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL></URL>
+      <SHA256>FF60F3B666A2355614149504A9CA304ABC3549A1791392345BCE37E7F42C6ACF</SHA256>
+      <FileSize>33284665</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
