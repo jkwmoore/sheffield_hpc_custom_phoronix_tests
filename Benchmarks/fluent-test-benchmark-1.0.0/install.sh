@@ -1,12 +1,5 @@
 #!/bin/sh
 
-tar -xvf fluent-test-benchmark.tar.gz
-cd fluent-test-benchmark
-chmod +x fluent-test-benchmark.sh
-
-echo $? > ~/install-exit-status
-
-
 cat > fluent-test-benchmark <<EOT
 #!/bin/sh
 
@@ -34,10 +27,19 @@ then
    helpFunction
 fi
 
-cd fluent-test-benchmark
+cd fluent-test-benchmark-files
 
 ./fluent-test-benchmark.sh -m $mesh_version
 
 
 EOT
+chmod +x fluent-test-benchmark
+
+tar -xvf fluent-test-benchmark.tar.gz
+cd fluent-test-benchmark-files
+chmod +x fluent-test-benchmark.sh
+
+echo $? > ~/install-exit-status
+
+
 
