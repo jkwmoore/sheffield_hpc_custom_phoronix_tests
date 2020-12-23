@@ -4,7 +4,7 @@
   <Downloads>
     <Package>
       <URL>https://github.com/jkwmoore/sheffield_hpc_custom_phoronix_tests/raw/main/Benchmarks/fluent-test-benchmark-1.0.0/sourcefiles/fluent-test-benchmark.tar.gz</URL>
-      <SHA256>FF60F3B666A2355614149504A9CA304ABC3549A1791392345BCE37E7F42C6ACF</SHA256>
+      <MD5>2a0d24afaac2b293abc275d7fffd3a75</MD5>
       <FileSize>33284665</FileSize>
     </Package>
   </Downloads>
