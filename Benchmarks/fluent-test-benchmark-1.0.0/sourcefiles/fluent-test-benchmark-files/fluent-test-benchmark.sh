@@ -51,11 +51,6 @@ then
     core_request=$SLURM_NTASKS
 fi
 
-if [ -n "$FLUENT_OPT_ARGS" ]
-then
-    FLUENT_OPT_ARGS=""
-fi
-
 #Get the chosen mesh version - needs to correspond with an available mesh
 mesh_version+=".jou"		            #This adds the .jou ending to select the correct journal file.
 
